@@ -108,3 +108,31 @@ h2{
     margin: 0;
     text-align: end;
 }
+.call{
+    background-color:#3882F6 ;
+    width: 700px;
+    border-radius:5px ;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+}
+h3{
+    color: #F9FAF8;
+    margin: 0;
+}
+.call p{
+    color:#E5E7EB;
+    font-size: 14px;
+    margin: 0;
+}
+.call button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 5px 12px; 
+    color:#E5E7EB;
+    border: 1px solid #E5E7EB ;
+}
+.parent-call{
+    display: flex;
+    justify-content: center;
+}
