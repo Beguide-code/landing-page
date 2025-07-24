@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 body{
     margin: 0;
+    font-family:'Roboto',sans-serif ;
 }
 .header{
     background-color: rgba(28, 82, 158, 0.5);
@@ -20,6 +22,7 @@ li{
 }
 button{
     cursor: pointer;
+    height: 38px;
 }
 .menu{
     display: flex;
@@ -45,7 +48,8 @@ h1{
     font-size: 48px;
     max-width: 300px;
     font-weight: 900;
-    color: black
+    color: black;
+    margin: 0px;
 }
 .hero div p{
     font-size: 18px;
@@ -131,8 +135,15 @@ h3{
     padding: 5px 12px; 
     color:#E5E7EB;
     border: 1px solid #E5E7EB ;
+    
 }
 .parent-call{
     display: flex;
     justify-content: center;
+    margin-bottom: 48px;
+}
+.footer{
+   text-align: center; 
+    background-color: rgba(28, 82, 158, 0.5);
+    padding: 24px;
 }
